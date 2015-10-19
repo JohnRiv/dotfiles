@@ -1,5 +1,14 @@
 [user]
-	name = John Riviello
-	email = github@riviello.net
+  name = John Riviello
+  email = github@riviello.net
+
 [github]
-	user = JohnRiv
+  user = JohnRiv
+
+[alias]
+    sb = status -sb
+    plog = log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  tree = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white). %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative
+
+[core]
+  editor = /usr/bin/vim
