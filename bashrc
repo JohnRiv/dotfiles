@@ -4,6 +4,9 @@ alias cdp='cd ~/projects/'
 alias la='ls -laG'
 alias lh='ls -laGh'
 alias ll='ls -lG'
+alias pys='python -m SimpleHTTPServer'
+alias gulpdebug='node --inspect --debug-brk node_modules/gulp/bin/gulp.js'
+alias nodedebug='node --inspect --debug-brk'
 
 # git & svn functions
 function parse_git_in_rebase {
