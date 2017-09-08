@@ -37,3 +37,9 @@ NORMAL="\[\033[0m\]"
 PINK="\033[35m\]"
 
 export PS1="\n$YELLOW\w:$GREEN\$(parse_git_branch)\$(parse_svn_repo)\n$RED$ $NORMAL"
+
+function gitresume {
+  git reset --soft HEAD^
+  git reset .
+  git status
+}
