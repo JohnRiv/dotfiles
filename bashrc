@@ -6,6 +6,7 @@ alias lh='ls -laGh'
 alias ll='ls -lG'
 alias pys='python -m SimpleHTTPServer'
 alias gulpdebug='node --inspect --debug-brk node_modules/gulp/bin/gulp.js'
+alias gruntdebug='node --inspect --debug-brk node_modules/grunt/lib/grunt.js'
 alias nodedebug='node --inspect --debug-brk'
 
 # git & svn functions
